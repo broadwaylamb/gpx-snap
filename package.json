@@ -1,0 +1,28 @@
+{
+  "name": "gpx-snap",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "bin": {
+    "gpx-snap": "./lib/index.js"
+  },
+  "scripts": {
+    "start:dev": "npx ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "turf": "^3.0.14",
+    "@turf/nearest-point-on-line": "^6.5.0",
+    "@turf/length": "^6.5.0",
+    "geojson": "^0.5.0",
+    "togpx": "^0.5.4",
+    "togeojson": "^0.16.0",
+    "xmldom": "^0.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "ts-node": "^10.9.1",
+    "@types/node": "^18.14.1",
+    "@types/turf": "^3.5.32",
+    "@types/xmldom": "^0.1.31",
+    "@types/geojson": "^7946.0.10"
+  }
+}
