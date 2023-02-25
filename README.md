@@ -1,5 +1,7 @@
 # gpx-snap
 
+[(По-русски)](README_ru.md)
+
 You have a GPX file with low resolution and timestamps. You have another GPX file, with high resolution and no
 timestamps.
 
